@@ -26,8 +26,15 @@ Note: These commands are also available in Command Panel with prefix "--Highligh
 1. Select the text you want to find the scope for.
 2. Tools > Developer > Show Scope Name (or ⌃⇧P)
 
-* Paste this string inside color property:
+- Paste this string inside color property:
 
-![highlight](doc_images/highlight.png)
+```json
+"permanent_highlight_keyword_color_mappings": [
+    {
+      "keyword": "FIXME",
+      "color": "variable.parameter"
+    }
+]
+```
 
 --Color will change after you re-enter the tab--
