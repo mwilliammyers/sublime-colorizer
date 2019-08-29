@@ -37,4 +37,4 @@ Note: These commands are also available in Command Panel with prefix "--Highligh
 ]
 ```
 
---Color will change after you re-enter the tab--
+*Color will change after you re-enter the tab*
