@@ -1,4 +1,4 @@
 [
-	{ "keys": ["ctrl+alt+h"], "command": "highlight_words" },
-	{ "keys": ["ctrl+alt+u"], "command": "unhighlight_words" }
+	{ "keys": ["ctrl+alt+h"], "command": "colorize_words" },
+	{ "keys": ["ctrl+alt+u"], "command": "uncolorize_words" }
 ]

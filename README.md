@@ -6,20 +6,20 @@ The following configuration options are available:
 
 - Regular Expression
 - Case Sensitive
-- Customize Highlight Colors
-- Define "Always Highlighted Keywords" with Customized Colors
+- Customize Colorize Colors
+- Define "Always Colorizeed Keywords" with Customized Colors
 
 ## Usage
 
-- Highlight: Select "Edit > Highlight Words > Highlight Words" and enter the words (separated by whitespace)
-- Unhighlight: Select "Edit > Highlight Words > Unhighlight Words"
-- Toggle Settings: Select "Edit > Highlight Words > Toggle Settings"
-- Edit settings file: Select "Preferences" > "Package Settings" > "HighlightWords", copy settings from default to user, and edit settings file. Available settings are:
-- "colors_by_scope": Change the highlight colors.
-- "permanent_highlight_keyword_color_mappings": Define always highlighted keywords with specified colors, such as "TODO" or "FIXME". The optional "flag" parameter may be 0 (regex), 1 (literal), 2 (regex and ignore case) or 3 (literal and ignore case).
-- Perl-style regular expression patterns are accepted. For example, to highlight "fix a bug" but not "prefix with", the expression could be "\\bfix .-\\b".
+- Colorize: Select "Edit > Colorize Words > Colorize Words" and enter the words (separated by whitespace)
+- Uncolorize: Select "Edit > Colorize Words > Uncolorize Words"
+- Toggle Settings: Select "Edit > Colorize Words > Toggle Settings"
+- Edit settings file: Select "Preferences" > "Package Settings" > "ColorizeWords", copy settings from default to user, and edit settings file. Available settings are:
+- "colors_by_scope": Change the colorize colors.
+- "permanent_colorize_keyword_color_mappings": Define always colorizeed keywords with specified colors, such as "TODO" or "FIXME". The optional "flag" parameter may be 0 (regex), 1 (literal), 2 (regex and ignore case) or 3 (literal and ignore case).
+- Perl-style regular expression patterns are accepted. For example, to colorize "fix a bug" but not "prefix with", the expression could be "\\bfix .-\\b".
 
-Note: These commands are also available in Command Panel with prefix "--HighlightWords:--"
+Note: These commands are also available in Command Panel with prefix "--ColorizeWords:--"
 
 ## How to find color scope
 
@@ -29,7 +29,7 @@ Note: These commands are also available in Command Panel with prefix "--Highligh
 - Paste this string inside color property:
 
 ```json
-"permanent_highlight_keyword_color_mappings": [
+"permanent_colorize_keyword_color_mappings": [
     {
       "keyword": "FIXME",
       "color": "variable.parameter"

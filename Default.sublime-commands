@@ -1,17 +1,17 @@
 [
     {
-        "caption": "HighlightWords: Highlight Words",
-        "command": "highlight_words",
+        "caption": "ColorizeWords: Colorize Words",
+        "command": "colorize_words",
         "args": {}
     },
     {
-        "caption": "HighlightWords: Unhighlight Words",
-        "command": "unhighlight_words",
+        "caption": "ColorizeWords: Uncolorize Words",
+        "command": "uncolorize_words",
         "args": {}
     },
     {
-        "caption": "HighlightWords: Toggle Settings",
-        "command": "highlight_settings",
+        "caption": "ColorizeWords: Toggle Settings",
+        "command": "colorize_settings",
         "args": {}
     }
 ]
